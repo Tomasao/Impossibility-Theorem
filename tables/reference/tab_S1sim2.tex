@@ -1,0 +1,24 @@
+\begin{table}[htbp]
+\centering\small
+\caption{Simulation~2 by program length ($200{,}000$ programs per length; registers $r_0$--$r_2$, constants $0$--$7$; seed $20261020$). Unsafe: programs forbidden under the safety norm. Unresolved: programs excluded from error counts (safety / confidentiality). False permissions: share of unsafe programs permitted by the bounded safety test at horizon $H$. Plateau: share of compliant programs wrongly forbidden by the bounded confidentiality test at $H=4096$. First violation: median / 99th / 99.9th percentile / maximum of the step at which an unsafe program first performs $\bad$ on input $0$. Values are computed from \texttt{sim2\_landscape.csv} and \texttt{sim2\_required\_horizon.csv}.}
+\label{tab:S1sim2}
+\begin{tabular}{rrrrrrrrl}
+\toprule
+$L$ & Unsafe & Unresolved & \multicolumn{4}{c}{False permissions (\%) at $H=$} & Plateau (\%) & First violation\\
+\cmidrule(lr){4-7}
+ & & & 8 & 16 & 32 & 64 & & \\
+\midrule
+4 & 3{,}337 & 0 / 100 & 0.00 & 0.00 & 0.00 & 0.00 & 0.029 & 2 / 3 / 4 / 5\\
+6 & 3{,}752 & 0 / 468 & 0.05 & 0.00 & 0.00 & 0.00 & 0.107 & 3 / 5 / 7 / 11\\
+8 & 3{,}536 & 1 / 649 & 0.06 & 0.00 & 0.00 & 0.00 & 0.166 & 3 / 7 / 8 / 9\\
+10 & 3{,}602 & 1 / 731 & 3.89 & 0.00 & 0.00 & 0.00 & 0.228 & 4 / 9 / 11 / 13\\
+12 & 3{,}413 & 7 / 701 & 9.61 & 0.09 & 0.00 & 0.00 & 0.265 & 4 / 11 / 13 / 26\\
+14 & 3{,}312 & 5 / 674 & 14.70 & 0.15 & 0.09 & 0.03 & 0.322 & 4 / 13 / 17 / 66\\
+16 & 3{,}138 & 9 / 668 & 18.10 & 0.45 & 0.03 & 0.00 & 0.326 & 5 / 15 / 20 / 52\\
+18 & 3{,}115 & 9 / 626 & 21.25 & 1.16 & 0.16 & 0.00 & 0.307 & 5 / 17 / 39 / 60\\
+20 & 2{,}938 & 10 / 626 & 25.63 & 1.80 & 0.14 & 0.03 & 0.344 & 5 / 18 / 36 / 123\\
+22 & 2{,}744 & 3 / 573 & 26.49 & 2.33 & 0.04 & 0.00 & 0.368 & 5 / 18 / 28 / 55\\
+24 & 2{,}756 & 2 / 504 & 30.15 & 2.94 & 0.22 & 0.00 & 0.338 & 6 / 21 / 33 / 47\\
+\bottomrule
+\end{tabular}
+\end{table}

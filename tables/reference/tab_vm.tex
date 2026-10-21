@@ -1,0 +1,20 @@
+\begin{table}[ht]
+\centering\small
+\caption{Register-machine instructions. Execution starts at instruction $0$ with registers $(n,0,0,0)$. All nonjump, nonreturn instructions advance to the next instruction.}
+\label{tab:vm}
+\begin{tabularx}{\textwidth}{lY}
+\toprule
+Instruction & Effect\\
+\midrule
+\texttt{LOAD(i,k)} & Set $r_i=k$.\\
+\texttt{MOV(i,j)} & Set $r_i=r_j$.\\
+\texttt{INC(i)} & Increase $r_i$ by one.\\
+\texttt{DECJZ(i,l)} & If $r_i=0$, jump to $l$; otherwise decrement $r_i$ and advance.\\
+\texttt{EQJUMP(i,k,l)} & If $r_i=k$, jump to $l$; otherwise advance.\\
+\texttt{JMP(l)} & Jump to $l$.\\
+\texttt{PUB(i)} & Append $r_i$ to the public sequence.\\
+\texttt{BAD} & Record the distinguished unauthorized event.\\
+\texttt{RETURN(i)} & Terminate and return $r_i$.\\
+\bottomrule
+\end{tabularx}
+\end{table}

@@ -1,0 +1,112 @@
+{
+  "seed": 20261013,
+  "samples_per_length": 50000,
+  "lengths": [
+    6,
+    8,
+    10,
+    12
+  ],
+  "registers": [
+    0,
+    1,
+    2
+  ],
+  "constants": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "truth_budget": 5000,
+  "by_length": {
+    "6": {
+      "programs": 50000,
+      "latest_first_bad_step": 7,
+      "first_bad_step_histogram_upper_bounds": {
+        "4": 813,
+        "8": 132,
+        "16": 0,
+        "32": 0,
+        "64": 0,
+        "128": 0,
+        "256": 0,
+        "512": 0,
+        "1024": 0,
+        "5000": 0
+      },
+      "late_violations": {
+        "forbidden_first_bad_after_8": 0,
+        "of_which_with_backward_jump": 0
+      },
+      "semantic_cross_checks": 100
+    },
+    "8": {
+      "programs": 50000,
+      "latest_first_bad_step": 9,
+      "first_bad_step_histogram_upper_bounds": {
+        "4": 706,
+        "8": 262,
+        "16": 1,
+        "32": 0,
+        "64": 0,
+        "128": 0,
+        "256": 0,
+        "512": 0,
+        "1024": 0,
+        "5000": 0
+      },
+      "late_violations": {
+        "forbidden_first_bad_after_8": 1,
+        "of_which_with_backward_jump": 1
+      },
+      "semantic_cross_checks": 100
+    },
+    "10": {
+      "programs": 50000,
+      "latest_first_bad_step": 17,
+      "first_bad_step_histogram_upper_bounds": {
+        "4": 586,
+        "8": 336,
+        "16": 31,
+        "32": 1,
+        "64": 0,
+        "128": 0,
+        "256": 0,
+        "512": 0,
+        "1024": 0,
+        "5000": 0
+      },
+      "late_violations": {
+        "forbidden_first_bad_after_8": 32,
+        "of_which_with_backward_jump": 32
+      },
+      "semantic_cross_checks": 100
+    },
+    "12": {
+      "programs": 50000,
+      "latest_first_bad_step": 27,
+      "first_bad_step_histogram_upper_bounds": {
+        "4": 476,
+        "8": 291,
+        "16": 70,
+        "32": 1,
+        "64": 0,
+        "128": 0,
+        "256": 0,
+        "512": 0,
+        "1024": 0,
+        "5000": 0
+      },
+      "late_violations": {
+        "forbidden_first_bad_after_8": 71,
+        "of_which_with_backward_jump": 71
+      },
+      "semantic_cross_checks": 100
+    }
+  }
+}

@@ -1,0 +1,43 @@
+\begin{table}[!tbp]
+\centering\small
+\caption{Exhaustive and sampled experiments (Section~\ref{sec:simulations}). (A) Every deterministic model with $3$, $4$, or $5$ states: permitted models admitted by the simplest checkable sets (no forbidden operation anywhere; no publication anywhere; no cycle in the successor graph). As for three states, safety starts in state $0$, confidentiality compares the runs from states $0$ and $1$, and response checks every starting state. No set ever admitted a forbidden model. (B) Every valid register-machine program with one to four instructions over registers $r_0,r_1$ and constants $0,1$. Errors are those of the bounded tests at the stated horizons $H$; certified counts are those of the sound certificate methods at $H\geq8$. (C) Sampled programs of length $6$, $8$, $10$, and $12$ over registers $r_0$--$r_2$ and constants $0$--$7$, $50{,}000$ per length, with the same tests; here certified counts are those at $H=8$, since they grow with the horizon. Unresolved programs are excluded from error counts.}
+\label{tab:experiments}
+\begin{tabularx}{\textwidth}{@{}lrYY>{\centering\arraybackslash}p{1.9cm}@{}}
+\multicolumn{5}{@{}l}{\textbf{A. Simple checkable sets on all finite-state models}}\\
+\toprule
+States & Models & Safety: admitted / permitted & Confidentiality: admitted / permitted & Response\\
+\midrule
+3 & 2,744 & 1,331 / 1,850 (71.9\%) & 512 / 1,452 (35.3\%) & exact\\
+4 & 104,976 & 38,416 / 65,448 (58.7\%) & 10,000 / 50,480 (19.8\%) & exact\\
+5 & 5,153,632 & 1,419,857 / 3,001,112 (47.3\%) & 248,832 / 2,291,712 (10.9\%) & exact\\
+\bottomrule
+\end{tabularx}
+
+\vspace{6pt}
+\begin{tabularx}{\textwidth}{@{}l>{\raggedright\arraybackslash}p{3.9cm}YY>{\centering\arraybackslash}p{2.4cm}@{}}
+\multicolumn{5}{@{}l}{\textbf{B. All 483,641 short programs}}\\
+\toprule
+Requirement & Permitted / forbidden / unresolved & False permissions ($H=4$; $H\geq8$) & False prohibitions ($H=4$; $8\leq H\leq1024$) & Certified (share of resolved)\\
+\midrule
+Safety & 459,683 / 23,958 / 0 & 22; 0 & 0; 0 & 474,726 (98.2\%)\\
+Confidentiality & 452,223 / 30,284 / 1,134 & 613; 0 & 756; 918--1,224 & 205,343 (42.6\%)\\
+\bottomrule
+\end{tabularx}
+
+\vspace{6pt}
+\begin{tabularx}{\textwidth}{@{}l>{\raggedright\arraybackslash}p{2.5cm}>{\raggedright\arraybackslash}p{3.1cm}YY>{\centering\arraybackslash}p{2.3cm}@{}}
+\multicolumn{6}{@{}l}{\textbf{C. Sampled programs, 50,000 per length}}\\
+\toprule
+Length & Requirement & Permitted / forbidden / unresolved & False permissions ($H=4$; $8$; $16$) & False prohibitions ($4\leq H\leq1024$) & Certified at $H=8$ (share of resolved)\\
+\midrule
+6 & Safety & 49{,}055 / 945 / 0 & 132; 0; 0 & 0 & 49{,}733 (99.5\%)\\
+6 & Confidentiality & 48{,}689 / 1{,}200 / 111 & 196; 6; 0 & 35--51 & 19{,}467 (39.0\%)\\
+8 & Safety & 49{,}031 / 969 / 0 & 263; 1; 0 & 0 & 49{,}623 (99.2\%)\\
+8 & Confidentiality & 48{,}595 / 1{,}226 / 179 & 430; 36; 0 & 50--77 & 13{,}162 (26.4\%)\\
+10 & Safety & 49{,}044 / 954 / 2 & 368; 32; 1 & 0 & 49{,}484 (99.0\%)\\
+10 & Confidentiality & 48{,}548 / 1{,}294 / 158 & 571; 111; 4 & 63--104 & 7{,}396 (14.8\%)\\
+12 & Safety & 49{,}162 / 838 / 0 & 362; 71; 1 & 0 & 49{,}370 (98.7\%)\\
+12 & Confidentiality & 48{,}420 / 1{,}410 / 170 & 772; 228; 10 & 58--142 & 5{,}496 (11.0\%)\\
+\bottomrule
+\end{tabularx}
+\end{table}

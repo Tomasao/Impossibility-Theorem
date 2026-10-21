@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite this reproducibility archive and the associated manuscript; record the exact commit or release used."
+type: software
+title: "Reproducibility materials for No finite rulebook can certify every safe program: an impossibility theorem for gatekeeping AI agents"
+authors:
+  - family-names: "Pérez-Acle"
+    given-names: "Tomás"
+    affiliation: "Universidad San Sebastián, Chile"
+version: "14"
+repository-code: "https://github.com/Tomasao/Impossibility-Theorem"
+url: "https://github.com/Tomasao/Impossibility-Theorem"
+abstract: "Synthetic program experiments, simulation data, numerical tables and figure sources accompanying the version 14 manuscript."
+keywords:
+  - AI alignment
+  - program verification
+  - computability
+  - reproducibility

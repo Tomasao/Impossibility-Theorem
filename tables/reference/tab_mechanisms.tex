@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering\small
+\caption{Deployed gatekeeping mechanisms and the condition of the theorems that each relaxes. None contradicts the results; each shows a restriction or a change of model under which a guarantee is possible.}
+\label{tab:mechanisms}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{3.4cm}YY}
+\toprule
+Mechanism & What it does & Which condition it relaxes\\
+\midrule
+Kernel extension verifier (eBPF) \cite{gershuni} & Admits only extension programs it can prove safe; rejects the rest. & Admits a decidable separator that omits some safe programs (Theorem~\ref{thm:separator}, Corollary~\ref{cor:infinite}).\\
+Gas budget (Ethereum) \cite{wood} & Bounds the computation of every transaction. & Changes the norm to a bounded one; exact but at cost $\approx T$ (Theorem~\ref{thm:budget}).\\
+Runtime monitor \cite{schneider,ligatti} & Intercepts the forbidden operation when it occurs. & Changes the execution rather than classifying the unmodified plan; the sandbox of Corollary~\ref{cor:sandbox}.\\
+Proof-carrying code \cite{necula} & Each program arrives with a checkable proof. & Admits exactly the plans that come with receipts: a confirmable separator, omitting infinitely many safe plans (Proposition~\ref{prop:omission}).\\
+AI-control protocols \cite{greenblatt} & A trusted model audits or rewrites code from an untrusted one. & Rewriting leaves the admission interface; guarantees are empirical, not universal.\\
+Learned classifiers & A trained model predicts whether code is safe. & A fast checker; by Theorem~\ref{thm:budget} and Proposition~\ref{prop:omission} it must err or abstain on some plan of its own size.\\
+\bottomrule
+\end{tabularx}
+\end{table}

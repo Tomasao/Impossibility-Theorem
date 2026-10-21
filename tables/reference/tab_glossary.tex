@@ -1,0 +1,24 @@
+\begin{table}[p]
+\centering\small
+\caption{Key notions in the gatekeeper's terms. The pictures are aids to intuition, not definitions; each notion is defined formally where it is first used. Only three images are used throughout the paper: the receipt, the smoke alarm, and the kettle.}
+\label{tab:glossary}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{2.9cm}Y>{\raggedright\arraybackslash}p{4.4cm}}
+\toprule
+Notion & Plain meaning & In the gatekeeper's terms\\
+\midrule
+Plan ($p\in X$) & A program submitted for execution. & A written plan handed to the gatekeeper.\\
+$P$ and $F$ & The permitted and forbidden plans: the two groups into which a fixed norm divides all plans. & What the gatekeeper may allow and what it must refuse.\\
+Rulebook & A finite rule with a fixed meaning: the set of plans it describes. Two rulebooks: permissive and prohibitive. & The gatekeeper's two lists.\\
+Certificate & Finite evidence that a plan fits a rule, checked by a procedure that always stops (Definition~\ref{def:cert}). & A \emph{receipt}: quick to check, possibly endless to find.\\
+Confirmable set & Every member is eventually confirmed and no non-member ever is; the procedure may run forever on a non-member. Also: computably enumerable, recognizable. & A \emph{smoke alarm}: its alarm is conclusive, its silence is not.\\
+Decidable set & A procedure always answers ``in'' or ``out'' correctly in finite time. & A gatekeeper who always reaches a verdict.\\
+Halting problem & Whether a plan eventually stops. Confirmable but undecidable; non-halting is not confirmable (Lemma~\ref{lem:halting}). & The \emph{kettle}: waiting confirms it boils, never that it will not.\\
+Reduction & A computable translation of one question into another that preserves the answer. & A plan that says ``first solve this puzzle, then \ldots''.\\
+Observation-invariant norm & A norm that judges a plan only by what an observer sees it do (Definition~\ref{def:obs}). & Judging the plan by its visible actions, not by its text.\\
+Observational extension & Plan $q$ extends $p$ when, on every input, $q$ visibly does everything $p$ does, in the same order, and possibly more. & A plan that does everything another does, and possibly more.\\
+Finite observation pattern & A finite record of observed events on finitely many inputs (Definition~\ref{def:extension}). & One page of the logbook.\\
+Bounded requirement & The norm applied to the first $T$ steps only (Section~\ref{sec:budget}). & The rule applied to the first hour of work.\\
+Separator & A set containing every obligatory plan and no forbidden one (Section~\ref{sec:guarantees}). & A checkable list with everyone who must be let in and no one who must be kept out.\\
+\bottomrule
+\end{tabularx}
+\end{table}

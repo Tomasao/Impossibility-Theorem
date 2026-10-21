@@ -1,0 +1,21 @@
+{
+  "programs": 483641,
+  "latest_first_bad_step": 6,
+  "semantic_cross_checks": 970,
+  "truth_budget": 5000,
+  "safety_split_programs_with_bad_instruction": {
+    "with_bad_resolved": 32873,
+    "with_bad_forbidden": 23958,
+    "with_bad_permitted": 8915,
+    "with_bad_certified_forbidden": 23958,
+    "with_bad_certified_permitted": 0
+  },
+  "confidentiality_false_prohibitions_at_1024": {
+    "periodic/periodic/first-publication-offset=0": 517,
+    "periodic/periodic/first-publication-offset=1": 286,
+    "periodic/periodic/first-publication-offset=2": 75,
+    "periodic/periodic/first-publication-offset=3": 34,
+    "periodic/periodic/first-publication-offset=4": 4,
+    "periodic/periodic/first-publication-offset=5": 2
+  }
+}

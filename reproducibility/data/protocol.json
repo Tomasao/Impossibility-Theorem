@@ -1,0 +1,50 @@
+{
+  "deterministic": true,
+  "random_seed": null,
+  "finite_state_count": 3,
+  "finite_model_count": 2744,
+  "virtual_step_budgets": [
+    4,
+    8,
+    16,
+    32,
+    64,
+    128,
+    256,
+    512,
+    1024,
+    2048,
+    4096
+  ],
+  "delay_parameters": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128,
+    256,
+    512,
+    1024
+  ],
+  "input_counts": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128,
+    256,
+    512,
+    1024,
+    2048
+  ],
+  "response_budget": 64,
+  "runtime_note": "Register values are arbitrary-precision naturals. One instruction is one virtual transition; physical bit costs are not measured.",
+  "truth_note": "Normative labels come from exact finite algorithms and analytic template semantics, never from timeouts.",
+  "scope_note": "The finite benchmark is an illustration, not a proof of undecidability or an empirical estimate of real-world risk."
+}

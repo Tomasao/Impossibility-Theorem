@@ -1,0 +1,10 @@
+states,models,norm,separator,permitted,admitted,coverage_percent,unsound_admissions
+3,2744,safety,no BAD event in any state,1850,1331,71.9,0
+3,2744,confidentiality,no publication in any state,1452,512,35.3,0
+3,2744,response,successor graph has no cycle,392,392,100.0,0
+4,104976,safety,no BAD event in any state,65448,38416,58.7,0
+4,104976,confidentiality,no publication in any state,50480,10000,19.8,0
+4,104976,response,successor graph has no cycle,11664,11664,100.0,0
+5,5153632,safety,no BAD event in any state,3001112,1419857,47.3,0
+5,5153632,confidentiality,no publication in any state,2291712,248832,10.9,0
+5,5153632,response,successor graph has no cycle,468512,468512,100.0,0

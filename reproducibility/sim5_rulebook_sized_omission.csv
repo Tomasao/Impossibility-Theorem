@@ -1,0 +1,5 @@
+certifier,certifier_chars,omitted_program_chars,overhead_chars,certifies_q,q_bad_within_1e5,q_returned,bank_verdicts
+syntactic_no_bad,64,1002,938,False,False,False,"{'returns': True, 'bad_now': False, 'loop': True}"
+no_loops_no_bad,115,1053,938,False,False,False,"{'returns': True, 'bad_now': False, 'loop': False}"
+halts_in_1000_steps_without_bad,187,1126,939,False,False,False,"{'returns': True, 'bad_now': False, 'loop': False}"
+bad_only_in_dead_code_after_return,409,1358,949,False,False,False,"{'returns': True, 'bad_now': False, 'loop': True}"

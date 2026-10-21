@@ -1,0 +1,380 @@
+{
+  "finite": [
+    {
+      "norm": "safety",
+      "permitted": 1850,
+      "forbidden": 894,
+      "total": 2744
+    },
+    {
+      "norm": "confidentiality",
+      "permitted": 1452,
+      "forbidden": 1292,
+      "total": 2744
+    },
+    {
+      "norm": "response",
+      "permitted": 392,
+      "forbidden": 2352,
+      "total": 2744
+    }
+  ],
+  "safety": [
+    {
+      "horizon": 4,
+      "total": 14,
+      "true_permitted": 3,
+      "true_forbidden": 11,
+      "false_permissions": 11,
+      "false_prohibitions": 0,
+      "certificate_unknown": 12,
+      "certificate_errors": 0
+    },
+    {
+      "horizon": 8,
+      "total": 14,
+      "true_permitted": 3,
+      "true_forbidden": 11,
+      "false_permissions": 9,
+      "false_prohibitions": 0,
+      "certificate_unknown": 10,
+      "certificate_errors": 0
+    },
+    {
+      "horizon": 16,
+      "total": 14,
+      "true_permitted": 3,
+      "true_forbidden": 11,
+      "false_permissions": 8,
+      "false_prohibitions": 0,
+      "certificate_unknown": 9,
+      "certificate_errors": 0
+    },
+    {
+      "horizon": 32,
+      "total": 14,
+      "true_permitted": 3,
+      "true_forbidden": 11,
+      "false_permissions": 7,
+      "false_prohibitions": 0,
+      "certificate_unknown": 8,
+      "certificate_errors": 0
+    },
+    {
+      "horizon": 64,
+      "total": 14,
+      "true_permitted": 3,
+      "true_forbidden": 11,
+      "false_permissions": 6,
+      "false_prohibitions": 0,
+      "certificate_unknown": 7,
+      "certificate_errors": 0
+    },
+    {
+      "horizon": 128,
+      "total": 14,
+      "true_permitted": 3,
+      "true_forbidden": 11,
+      "false_permissions": 5,
+      "false_prohibitions": 0,
+      "certificate_unknown": 6,
+      "certificate_errors": 0
+    },
+    {
+      "horizon": 256,
+      "total": 14,
+      "true_permitted": 3,
+      "true_forbidden": 11,
+      "false_permissions": 4,
+      "false_prohibitions": 0,
+      "certificate_unknown": 5,
+      "certificate_errors": 0
+    },
+    {
+      "horizon": 512,
+      "total": 14,
+      "true_permitted": 3,
+      "true_forbidden": 11,
+      "false_permissions": 3,
+      "false_prohibitions": 0,
+      "certificate_unknown": 4,
+      "certificate_errors": 0
+    },
+    {
+      "horizon": 1024,
+      "total": 14,
+      "true_permitted": 3,
+      "true_forbidden": 11,
+      "false_permissions": 2,
+      "false_prohibitions": 0,
+      "certificate_unknown": 3,
+      "certificate_errors": 0
+    },
+    {
+      "horizon": 2048,
+      "total": 14,
+      "true_permitted": 3,
+      "true_forbidden": 11,
+      "false_permissions": 1,
+      "false_prohibitions": 0,
+      "certificate_unknown": 2,
+      "certificate_errors": 0
+    },
+    {
+      "horizon": 4096,
+      "total": 14,
+      "true_permitted": 3,
+      "true_forbidden": 11,
+      "false_permissions": 0,
+      "false_prohibitions": 0,
+      "certificate_unknown": 1,
+      "certificate_errors": 0
+    }
+  ],
+  "confidentiality": [
+    {
+      "horizon": 4,
+      "total": 25,
+      "true_permitted": 13,
+      "true_forbidden": 12,
+      "false_permissions": 11,
+      "false_prohibitions": 11,
+      "certificate_unknown": 23,
+      "certificate_errors": 0
+    },
+    {
+      "horizon": 8,
+      "total": 25,
+      "true_permitted": 13,
+      "true_forbidden": 12,
+      "false_permissions": 9,
+      "false_prohibitions": 10,
+      "certificate_unknown": 20,
+      "certificate_errors": 0
+    },
+    {
+      "horizon": 16,
+      "total": 25,
+      "true_permitted": 13,
+      "true_forbidden": 12,
+      "false_permissions": 8,
+      "false_prohibitions": 8,
+      "certificate_unknown": 17,
+      "certificate_errors": 0
+    },
+    {
+      "horizon": 32,
+      "total": 25,
+      "true_permitted": 13,
+      "true_forbidden": 12,
+      "false_permissions": 7,
+      "false_prohibitions": 7,
+      "certificate_unknown": 15,
+      "certificate_errors": 0
+    },
+    {
+      "horizon": 64,
+      "total": 25,
+      "true_permitted": 13,
+      "true_forbidden": 12,
+      "false_permissions": 6,
+      "false_prohibitions": 6,
+      "certificate_unknown": 13,
+      "certificate_errors": 0
+    },
+    {
+      "horizon": 128,
+      "total": 25,
+      "true_permitted": 13,
+      "true_forbidden": 12,
+      "false_permissions": 5,
+      "false_prohibitions": 5,
+      "certificate_unknown": 11,
+      "certificate_errors": 0
+    },
+    {
+      "horizon": 256,
+      "total": 25,
+      "true_permitted": 13,
+      "true_forbidden": 12,
+      "false_permissions": 4,
+      "false_prohibitions": 4,
+      "certificate_unknown": 9,
+      "certificate_errors": 0
+    },
+    {
+      "horizon": 512,
+      "total": 25,
+      "true_permitted": 13,
+      "true_forbidden": 12,
+      "false_permissions": 3,
+      "false_prohibitions": 3,
+      "certificate_unknown": 7,
+      "certificate_errors": 0
+    },
+    {
+      "horizon": 1024,
+      "total": 25,
+      "true_permitted": 13,
+      "true_forbidden": 12,
+      "false_permissions": 2,
+      "false_prohibitions": 2,
+      "certificate_unknown": 5,
+      "certificate_errors": 0
+    },
+    {
+      "horizon": 2048,
+      "total": 25,
+      "true_permitted": 13,
+      "true_forbidden": 12,
+      "false_permissions": 1,
+      "false_prohibitions": 1,
+      "certificate_unknown": 3,
+      "certificate_errors": 0
+    },
+    {
+      "horizon": 4096,
+      "total": 25,
+      "true_permitted": 13,
+      "true_forbidden": 12,
+      "false_permissions": 0,
+      "false_prohibitions": 0,
+      "certificate_unknown": 1,
+      "certificate_errors": 0
+    }
+  ],
+  "response": [
+    {
+      "input_count": 1,
+      "horizon": 64,
+      "total": 25,
+      "true_permitted": 3,
+      "true_forbidden": 22,
+      "false_permissions": 22,
+      "false_prohibitions": 1,
+      "certificate_unknown": 23,
+      "certificate_errors": 0
+    },
+    {
+      "input_count": 2,
+      "horizon": 64,
+      "total": 25,
+      "true_permitted": 3,
+      "true_forbidden": 22,
+      "false_permissions": 20,
+      "false_prohibitions": 1,
+      "certificate_unknown": 22,
+      "certificate_errors": 0
+    },
+    {
+      "input_count": 4,
+      "horizon": 64,
+      "total": 25,
+      "true_permitted": 3,
+      "true_forbidden": 22,
+      "false_permissions": 18,
+      "false_prohibitions": 1,
+      "certificate_unknown": 21,
+      "certificate_errors": 0
+    },
+    {
+      "input_count": 8,
+      "horizon": 64,
+      "total": 25,
+      "true_permitted": 3,
+      "true_forbidden": 22,
+      "false_permissions": 16,
+      "false_prohibitions": 1,
+      "certificate_unknown": 20,
+      "certificate_errors": 0
+    },
+    {
+      "input_count": 16,
+      "horizon": 64,
+      "total": 25,
+      "true_permitted": 3,
+      "true_forbidden": 22,
+      "false_permissions": 14,
+      "false_prohibitions": 1,
+      "certificate_unknown": 19,
+      "certificate_errors": 0
+    },
+    {
+      "input_count": 32,
+      "horizon": 64,
+      "total": 25,
+      "true_permitted": 3,
+      "true_forbidden": 22,
+      "false_permissions": 12,
+      "false_prohibitions": 1,
+      "certificate_unknown": 18,
+      "certificate_errors": 0
+    },
+    {
+      "input_count": 64,
+      "horizon": 64,
+      "total": 25,
+      "true_permitted": 3,
+      "true_forbidden": 22,
+      "false_permissions": 10,
+      "false_prohibitions": 1,
+      "certificate_unknown": 17,
+      "certificate_errors": 0
+    },
+    {
+      "input_count": 128,
+      "horizon": 64,
+      "total": 25,
+      "true_permitted": 3,
+      "true_forbidden": 22,
+      "false_permissions": 8,
+      "false_prohibitions": 1,
+      "certificate_unknown": 16,
+      "certificate_errors": 0
+    },
+    {
+      "input_count": 256,
+      "horizon": 64,
+      "total": 25,
+      "true_permitted": 3,
+      "true_forbidden": 22,
+      "false_permissions": 6,
+      "false_prohibitions": 1,
+      "certificate_unknown": 15,
+      "certificate_errors": 0
+    },
+    {
+      "input_count": 512,
+      "horizon": 64,
+      "total": 25,
+      "true_permitted": 3,
+      "true_forbidden": 22,
+      "false_permissions": 4,
+      "false_prohibitions": 1,
+      "certificate_unknown": 14,
+      "certificate_errors": 0
+    },
+    {
+      "input_count": 1024,
+      "horizon": 64,
+      "total": 25,
+      "true_permitted": 3,
+      "true_forbidden": 22,
+      "false_permissions": 2,
+      "false_prohibitions": 1,
+      "certificate_unknown": 13,
+      "certificate_errors": 0
+    },
+    {
+      "input_count": 2048,
+      "horizon": 64,
+      "total": 25,
+      "true_permitted": 3,
+      "true_forbidden": 22,
+      "false_permissions": 0,
+      "false_prohibitions": 1,
+      "certificate_unknown": 12,
+      "certificate_errors": 0
+    }
+  ]
+}

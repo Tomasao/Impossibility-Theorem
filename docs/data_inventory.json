@@ -1,0 +1,339 @@
+[
+  {
+    "path": "reproducibility/data/candidates.json",
+    "bytes": 34643,
+    "sha256": "c2b488244a8c82e64099c2d7851cbba3eba283b2a7fd2e5a5644bc3a0d1922f7"
+  },
+  {
+    "path": "reproducibility/data/confidentiality_observations.csv",
+    "bytes": 12085,
+    "sha256": "5336e8d44e76eeadcfa27c48b01bedf4b040c20292c94ee6049855ce01fa65ad",
+    "columns": [
+      "horizon",
+      "candidate",
+      "truth_permitted",
+      "naive_permitted",
+      "certificate_status",
+      "public_0",
+      "public_1",
+      "halted_0",
+      "halted_1"
+    ],
+    "rows": 275
+  },
+  {
+    "path": "reproducibility/data/confidentiality_summary.csv",
+    "bytes": 368,
+    "sha256": "aacc4d2a8051ad2658519d7e808d17e448aa0e5283b9f10077b3fa00d0cb2fa3",
+    "columns": [
+      "horizon",
+      "total",
+      "true_permitted",
+      "true_forbidden",
+      "false_permissions",
+      "false_prohibitions",
+      "certificate_unknown",
+      "certificate_errors"
+    ],
+    "rows": 11
+  },
+  {
+    "path": "reproducibility/data/finite_models.csv",
+    "bytes": 168870,
+    "sha256": "8e59d88cbc9d6508076f9f6ecb91ba873409570fb080210cb310909246b18d62",
+    "columns": [
+      "model_id",
+      "graph",
+      "safety",
+      "confidentiality",
+      "response"
+    ],
+    "rows": 2744
+  },
+  {
+    "path": "reproducibility/data/finite_summary.csv",
+    "bytes": 110,
+    "sha256": "91283f5bd0068411f589e7103b39db441e18413cb5922fbbac5c52c65a0c1041",
+    "columns": [
+      "norm",
+      "permitted",
+      "forbidden",
+      "total"
+    ],
+    "rows": 3
+  },
+  {
+    "path": "reproducibility/data/protocol.json",
+    "bytes": 910,
+    "sha256": "6d9234e4eb65ba6fb7ef2aec04740ad37faf63cab0189b36b458b03b4e2332a3"
+  },
+  {
+    "path": "reproducibility/data/response_observations.csv",
+    "bytes": 32888,
+    "sha256": "45dc673606426c20933c3329a97d37a2d5eb80c3573ce146308ae405694029ac",
+    "columns": [
+      "input_count",
+      "horizon",
+      "candidate",
+      "truth_permitted",
+      "naive_permitted",
+      "certificate_status",
+      "timed_out_inputs",
+      "proved_cycle_inputs"
+    ],
+    "rows": 300
+  },
+  {
+    "path": "reproducibility/data/response_summary.csv",
+    "bytes": 431,
+    "sha256": "6be3264e157e173dd650ebe6f2ed0524c925d417194074111145c093df1a6020",
+    "columns": [
+      "input_count",
+      "horizon",
+      "total",
+      "true_permitted",
+      "true_forbidden",
+      "false_permissions",
+      "false_prohibitions",
+      "certificate_unknown",
+      "certificate_errors"
+    ],
+    "rows": 12
+  },
+  {
+    "path": "reproducibility/data/runtime.json",
+    "bytes": 63,
+    "sha256": "72a23fe8ccb14dac68fe835a3f97a43baa630be34a30376442b62294bbe01364"
+  },
+  {
+    "path": "reproducibility/data/safety_observations.csv",
+    "bytes": 5789,
+    "sha256": "de2670238c0ec9b4f4788e65b3dda8b4db5d0a0a1adde84b7d789be5bc502092",
+    "columns": [
+      "horizon",
+      "candidate",
+      "truth_permitted",
+      "naive_permitted",
+      "certificate_status",
+      "bad_steps",
+      "halted"
+    ],
+    "rows": 154
+  },
+  {
+    "path": "reproducibility/data/safety_summary.csv",
+    "bytes": 351,
+    "sha256": "f4fda06c818c4d7e2eeb82699e0f3f9cb80a39187058ca68fc2c2bd40307e44e",
+    "columns": [
+      "horizon",
+      "total",
+      "true_permitted",
+      "true_forbidden",
+      "false_permissions",
+      "false_prohibitions",
+      "certificate_unknown",
+      "certificate_errors"
+    ],
+    "rows": 11
+  },
+  {
+    "path": "reproducibility/data/sha256_manifest.json",
+    "bytes": 1123,
+    "sha256": "972ca06657a671e82017a1dbe338d2fe470dafce8e444dbf4de8461da290a31b"
+  },
+  {
+    "path": "reproducibility/data/summary.json",
+    "bytes": 8629,
+    "sha256": "854db354f94f9501034dc7510ee35702c98b3a2e51befa9649245fd6cf80b2e7"
+  },
+  {
+    "path": "reproducibility/data_extensions/separator_coverage.csv",
+    "bytes": 691,
+    "sha256": "9bc6ec8a9cefd4e9f5386d1a54ae3a8c398cf0651d890f1abc7077f0df334926",
+    "columns": [
+      "states",
+      "models",
+      "norm",
+      "separator",
+      "permitted",
+      "admitted",
+      "coverage_percent",
+      "unsound_admissions"
+    ],
+    "rows": 9
+  },
+  {
+    "path": "reproducibility/data_extensions/small_programs_meta.json",
+    "bytes": 734,
+    "sha256": "890794c04d6960845625cd6b73a7845a71d1e4b992f7ea83d75f74942ecf8305"
+  },
+  {
+    "path": "reproducibility/data_extensions/small_programs_summary.csv",
+    "bytes": 1087,
+    "sha256": "896563d2d02511aa250b47fe50245e7be7ae3c586ce5d4e0b18b6e41ed4d636b",
+    "columns": [
+      "norm",
+      "horizon",
+      "programs",
+      "permitted",
+      "forbidden",
+      "unresolved",
+      "false_permissions",
+      "false_prohibitions",
+      "certified",
+      "certificate_errors"
+    ],
+    "rows": 18
+  },
+  {
+    "path": "reproducibility/data_sampled/sampled_programs_meta.json",
+    "bytes": 2145,
+    "sha256": "662ce7972c37a84439cf2239774722b0ce6c8a5e68c0b0f03fcdd951396fc1c6"
+  },
+  {
+    "path": "reproducibility/data_sampled/sampled_programs_summary.csv",
+    "bytes": 3767,
+    "sha256": "180f628a43827de88618010d3544e19d2a134de002c966a0d650e9f69487cad8",
+    "columns": [
+      "length",
+      "norm",
+      "horizon",
+      "programs",
+      "permitted",
+      "forbidden",
+      "unresolved",
+      "false_permissions",
+      "false_prohibitions",
+      "certified",
+      "certificate_errors"
+    ],
+    "rows": 72
+  },
+  {
+    "path": "reproducibility/sim1_adversary_results.csv",
+    "bytes": 4213,
+    "sha256": "07884563bb34e380860e566f6d64efc65a8b775b2f5978cfdb2b5f0634e91b60",
+    "columns": [
+      "checker",
+      "T",
+      "adversary_chars",
+      "truth_permitted",
+      "verdict_permitted",
+      "correct",
+      "checker_cost_steps",
+      "cost_over_T",
+      "bad_step",
+      "wall_truth_s",
+      "wall_checker_s"
+    ],
+    "rows": 64
+  },
+  {
+    "path": "reproducibility/sim1_benign_benchmark.csv",
+    "bytes": 17413,
+    "sha256": "2ef05bc8be3e26aa8df92959b58f2a1c7de15cd1236d016a2cd740f0bd7044cb",
+    "columns": [
+      "checker",
+      "T",
+      "program",
+      "truth_permitted",
+      "verdict_permitted",
+      "correct",
+      "cost"
+    ],
+    "rows": 320
+  },
+  {
+    "path": "reproducibility/sim2_first_bad_meta.json",
+    "bytes": 3826,
+    "sha256": "0664237ae85dae99553c32b951e306211b6f15c990a68af99108f12a1906fd88"
+  },
+  {
+    "path": "reproducibility/sim2_landscape.csv",
+    "bytes": 8260,
+    "sha256": "c6d36a9d2162d4f9387a9fe42eecb416b83e3803c44f46db1d5975f16d47c9ed",
+    "columns": [
+      "length",
+      "horizon",
+      "programs",
+      "safety_permitted",
+      "safety_forbidden",
+      "safety_unresolved",
+      "conf_permitted",
+      "conf_forbidden",
+      "conf_unresolved",
+      "safety_false_permissions",
+      "conf_false_permissions",
+      "conf_false_prohibitions",
+      "safety_certified",
+      "conf_certified"
+    ],
+    "rows": 121
+  },
+  {
+    "path": "reproducibility/sim2_required_horizon.csv",
+    "bytes": 324,
+    "sha256": "81d1c2c5a832b132712175d79b9ec39eaf085f9363a7e8cc33a656317fa10884",
+    "columns": [
+      "length",
+      "unsafe_programs",
+      "median_first_bad",
+      "p99",
+      "p999",
+      "max_first_bad",
+      "min_errorfree_horizon_tested"
+    ],
+    "rows": 11
+  },
+  {
+    "path": "reproducibility/sim3_open_problem_results.csv",
+    "bytes": 912,
+    "sha256": "947a5472c94abf31643b68e03dbc26d6b84737d4ea9bc46abef9318ec3c23307",
+    "columns": [
+      "program",
+      "horizon",
+      "bad_observed",
+      "bad_step",
+      "bounded_test_verdict",
+      "wall_s"
+    ],
+    "rows": 18
+  },
+  {
+    "path": "reproducibility/sim4_plateau_breakdown.csv",
+    "bytes": 1147,
+    "sha256": "284f91ddc0282f70b10220d19d69c4e4b41c12513595f1731972af865b925e85",
+    "columns": [
+      "length",
+      "horizon",
+      "false_prohibitions",
+      "both_halted",
+      "some_run_publishes_forever",
+      "both_publish_forever",
+      "compliant_both_halted_within_H",
+      "compliant_both_halted_within_H_errors"
+    ],
+    "rows": 33
+  },
+  {
+    "path": "reproducibility/sim5_rulebook_sized_omission.csv",
+    "bytes": 555,
+    "sha256": "cb6bc613f1786197353732a368aa12838a056a62b61dad49db70ecf0604c6c9d",
+    "columns": [
+      "certifier",
+      "certifier_chars",
+      "omitted_program_chars",
+      "overhead_chars",
+      "certifies_q",
+      "q_bad_within_1e5",
+      "q_returned",
+      "bank_verdicts"
+    ],
+    "rows": 4
+  },
+  {
+    "path": "reproducibility/verification_record.json",
+    "bytes": 1629,
+    "sha256": "8aa4f04c634082b815de248dede869e5016fcac374bbdcf1ab694e32805aad90"
+  }
+]

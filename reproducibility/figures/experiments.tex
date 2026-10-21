@@ -1,0 +1,41 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage[T1]{fontenc}
+\usepackage{pgfplots}
+\usepgfplotslibrary{groupplots}
+\pgfplotsset{compat=1.18}
+\definecolor{allowblue}{RGB}{0,88,138}
+\definecolor{denyred}{RGB}{163,41,47}
+\definecolor{certorange}{RGB}{166,95,0}
+\begin{document}
+\begin{tikzpicture}
+\begin{groupplot}[
+ group style={group size=3 by 1,horizontal sep=1.55cm},
+ width=5.6cm,height=5.2cm,grid=major,grid style={gray!15},
+ tick label style={font=\footnotesize},label style={font=\footnotesize},
+ title style={font=\small},
+ legend style={font=\footnotesize,draw=none,fill=none},
+ every axis plot/.append style={thick,mark size=2pt}]
+\nextgroupplot[title={(a) Simple checkable sets},xlabel={Number of states},
+ ylabel={Permitted models admitted (\%)},ymin=0,ymax=100,xtick={3,4,5},
+ legend pos=north east]
+\addplot+[color=allowblue,mark=*,solid] coordinates {(3,71.9) (4,58.7) (5,47.3)};
+\addlegendentry{Safety}
+\addplot+[color=denyred,mark=square*,dashed] coordinates {(3,35.3) (4,19.8) (5,10.9)};
+\addlegendentry{Confidentiality}
+\nextgroupplot[title={(b) Late violations (horizon 8)},xlabel={Program length},
+ ylabel={False permissions per 10{,}000},ymin=0,symbolic x coords={$\leq 4$,6,8,10,12},xtick=data,
+ legend pos=north west]
+\addplot+[color=allowblue,mark=*,solid] coordinates {($\leq 4$,0.0) (6,0.0) (8,0.2) (10,6.4) (12,14.2)};
+\addlegendentry{Safety}
+\addplot+[color=denyred,mark=square*,dashed] coordinates {($\leq 4$,0.0) (6,1.2) (8,7.2) (10,22.2) (12,45.6)};
+\addlegendentry{Confidentiality}
+\nextgroupplot[title={(c) Sound certificates (horizon 8)},xlabel={Program length},
+ ylabel={Resolved programs certified (\%)},ymin=0,ymax=100,symbolic x coords={$\leq 4$,6,8,10,12},xtick=data,
+ legend style={at={(0.97,0.5)},anchor=east}]
+\addplot+[color=allowblue,mark=*,solid] coordinates {($\leq 4$,98.2) (6,99.5) (8,99.2) (10,99.0) (12,98.7)};
+\addlegendentry{Safety}
+\addplot+[color=denyred,mark=square*,dashed] coordinates {($\leq 4$,42.6) (6,39.0) (8,26.4) (10,14.8) (12,11.0)};
+\addlegendentry{Confidentiality}
+\end{groupplot}
+\end{tikzpicture}
+\end{document}

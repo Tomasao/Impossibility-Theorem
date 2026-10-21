@@ -1,0 +1,18 @@
+\begin{table}[t]
+  \centering\small
+  \caption{The main results at a glance. \emph{Confirmable}: some procedure eventually confirms every member of the category and never a non-member (Section~\ref{sec:setting}). The last row changes the question: with a computation budget every category is decidable, but no always-correct checker is fast (Theorem~\ref{thm:budget}).}
+  \label{tab:glance}
+  \begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{2.6cm}Y>{\centering\arraybackslash}p{2.3cm}>{\centering\arraybackslash}p{2.3cm}>{\centering\arraybackslash}p{2.3cm}@{}}
+    \toprule
+    Requirement & In plain words & Violations confirmable? & Compliance confirmable? & Both rulebooks exact?\\
+    \midrule
+    Safety & Never open the safe & Yes & No & No\\
+    Confidentiality & The published report reads the same for both secret memos & No & No & No\\
+    Response & Every customer eventually gets an answer & No & No & No\\
+    \midrule
+    Any norm judging only visible behaviour & Permits some plans and forbids others & \multicolumn{2}{>{\centering\arraybackslash}p{4.6cm}}{The side containing the silent plan: No (Corollary~\ref{cor:silent})} & No\\
+    \midrule
+    Any requirement with a budget $T$ & Judged on the first $T$ steps only & Yes & Yes & Yes, at cost $\approx T$\\
+    \bottomrule
+  \end{tabularx}
+\end{table}

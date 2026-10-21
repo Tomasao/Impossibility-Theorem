@@ -1,0 +1,588 @@
+{
+  "date": "2026-10-21",
+  "environment": {
+    "python": "3.9.6",
+    "platform": "Darwin arm64",
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "matplotlib": "3.9.4",
+    "tex": "TeX Live 2026",
+    "PYTHONHASHSEED": "0"
+  },
+  "original_entrypoint_runs": [
+    {
+      "task": "base",
+      "returncode": 0,
+      "elapsed_seconds": 1.514
+    },
+    {
+      "task": "extensions",
+      "returncode": 0,
+      "elapsed_seconds": 103.114
+    },
+    {
+      "task": "sampled",
+      "returncode": 0,
+      "elapsed_seconds": 17.347
+    },
+    {
+      "task": "sim1",
+      "returncode": 0,
+      "elapsed_seconds": 2.757
+    },
+    {
+      "task": "sim2",
+      "returncode": 0,
+      "elapsed_seconds": 36.734
+    },
+    {
+      "task": "sim3",
+      "returncode": 0,
+      "elapsed_seconds": 99.463
+    },
+    {
+      "task": "sim4",
+      "returncode": 0,
+      "elapsed_seconds": 24.142
+    },
+    {
+      "task": "sim5",
+      "returncode": 0,
+      "elapsed_seconds": 1.779
+    }
+  ],
+  "original_core_two_run_verifier": {
+    "status": "passed",
+    "deterministic_files_checked": 11,
+    "runtime_excluded": [
+      "runtime.json",
+      "sha256_manifest.json"
+    ],
+    "files": [
+      {
+        "file": "candidates.json",
+        "sha256": "c2b488244a8c82e64099c2d7851cbba3eba283b2a7fd2e5a5644bc3a0d1922f7"
+      },
+      {
+        "file": "confidentiality_observations.csv",
+        "sha256": "5336e8d44e76eeadcfa27c48b01bedf4b040c20292c94ee6049855ce01fa65ad"
+      },
+      {
+        "file": "confidentiality_summary.csv",
+        "sha256": "aacc4d2a8051ad2658519d7e808d17e448aa0e5283b9f10077b3fa00d0cb2fa3"
+      },
+      {
+        "file": "finite_models.csv",
+        "sha256": "8e59d88cbc9d6508076f9f6ecb91ba873409570fb080210cb310909246b18d62"
+      },
+      {
+        "file": "finite_summary.csv",
+        "sha256": "91283f5bd0068411f589e7103b39db441e18413cb5922fbbac5c52c65a0c1041"
+      },
+      {
+        "file": "protocol.json",
+        "sha256": "6d9234e4eb65ba6fb7ef2aec04740ad37faf63cab0189b36b458b03b4e2332a3"
+      },
+      {
+        "file": "response_observations.csv",
+        "sha256": "45dc673606426c20933c3329a97d37a2d5eb80c3573ce146308ae405694029ac"
+      },
+      {
+        "file": "response_summary.csv",
+        "sha256": "6be3264e157e173dd650ebe6f2ed0524c925d417194074111145c093df1a6020"
+      },
+      {
+        "file": "safety_observations.csv",
+        "sha256": "de2670238c0ec9b4f4788e65b3dda8b4db5d0a0a1adde84b7d789be5bc502092"
+      },
+      {
+        "file": "safety_summary.csv",
+        "sha256": "f4fda06c818c4d7e2eeb82699e0f3f9cb80a39187058ca68fc2c2bd40307e44e"
+      },
+      {
+        "file": "summary.json",
+        "sha256": "854db354f94f9501034dc7510ee35702c98b3a2e51befa9649245fd6cf80b2e7"
+      }
+    ]
+  },
+  "full_driver_data_tasks": [
+    {
+      "task": "base",
+      "returncode": 0,
+      "elapsed_seconds": 0.731
+    },
+    {
+      "task": "extensions",
+      "returncode": 0,
+      "elapsed_seconds": 106.296
+    },
+    {
+      "task": "sampled",
+      "returncode": 0,
+      "elapsed_seconds": 17.618
+    },
+    {
+      "task": "sim1",
+      "returncode": 0,
+      "elapsed_seconds": 2.977
+    },
+    {
+      "task": "sim2",
+      "returncode": 0,
+      "elapsed_seconds": 37.045
+    },
+    {
+      "task": "sim3",
+      "returncode": 0,
+      "elapsed_seconds": 97.27
+    },
+    {
+      "task": "sim4",
+      "returncode": 0,
+      "elapsed_seconds": 22.672
+    },
+    {
+      "task": "sim5",
+      "returncode": 0,
+      "elapsed_seconds": 1.651
+    }
+  ],
+  "final_data_and_metadata_comparisons": [
+    {
+      "status": "matched",
+      "file": "data/candidates.json"
+    },
+    {
+      "status": "matched",
+      "differing_rows": 0,
+      "hash_sensitive_coin_rows": 0,
+      "timing_columns_excluded": [],
+      "byte_identical": true,
+      "file": "data/confidentiality_observations.csv"
+    },
+    {
+      "status": "matched",
+      "differing_rows": 0,
+      "hash_sensitive_coin_rows": 0,
+      "timing_columns_excluded": [],
+      "byte_identical": true,
+      "file": "data/confidentiality_summary.csv"
+    },
+    {
+      "status": "matched",
+      "differing_rows": 0,
+      "hash_sensitive_coin_rows": 0,
+      "timing_columns_excluded": [],
+      "byte_identical": true,
+      "file": "data/finite_models.csv"
+    },
+    {
+      "status": "matched",
+      "differing_rows": 0,
+      "hash_sensitive_coin_rows": 0,
+      "timing_columns_excluded": [],
+      "byte_identical": true,
+      "file": "data/finite_summary.csv"
+    },
+    {
+      "status": "matched",
+      "file": "data/protocol.json"
+    },
+    {
+      "status": "matched",
+      "differing_rows": 0,
+      "hash_sensitive_coin_rows": 0,
+      "timing_columns_excluded": [],
+      "byte_identical": true,
+      "file": "data/response_observations.csv"
+    },
+    {
+      "status": "matched",
+      "differing_rows": 0,
+      "hash_sensitive_coin_rows": 0,
+      "timing_columns_excluded": [],
+      "byte_identical": true,
+      "file": "data/response_summary.csv"
+    },
+    {
+      "status": "matched",
+      "differing_rows": 0,
+      "hash_sensitive_coin_rows": 0,
+      "timing_columns_excluded": [],
+      "byte_identical": true,
+      "file": "data/safety_observations.csv"
+    },
+    {
+      "status": "matched",
+      "differing_rows": 0,
+      "hash_sensitive_coin_rows": 0,
+      "timing_columns_excluded": [],
+      "byte_identical": true,
+      "file": "data/safety_summary.csv"
+    },
+    {
+      "status": "matched",
+      "file": "data/summary.json"
+    },
+    {
+      "status": "matched",
+      "differing_rows": 0,
+      "hash_sensitive_coin_rows": 0,
+      "timing_columns_excluded": [],
+      "byte_identical": true,
+      "file": "data_extensions/separator_coverage.csv"
+    },
+    {
+      "status": "matched",
+      "file": "data_extensions/small_programs_meta.json"
+    },
+    {
+      "status": "matched",
+      "differing_rows": 0,
+      "hash_sensitive_coin_rows": 0,
+      "timing_columns_excluded": [],
+      "byte_identical": true,
+      "file": "data_extensions/small_programs_summary.csv"
+    },
+    {
+      "status": "matched",
+      "file": "data_sampled/sampled_programs_meta.json"
+    },
+    {
+      "status": "matched",
+      "differing_rows": 0,
+      "hash_sensitive_coin_rows": 0,
+      "timing_columns_excluded": [],
+      "byte_identical": true,
+      "file": "data_sampled/sampled_programs_summary.csv"
+    },
+    {
+      "status": "documented_difference",
+      "differing_rows": 0,
+      "hash_sensitive_coin_rows": 5,
+      "timing_columns_excluded": [
+        "wall_checker_s",
+        "wall_truth_s"
+      ],
+      "byte_identical": false,
+      "file": "sim1_adversary_results.csv"
+    },
+    {
+      "status": "documented_difference",
+      "differing_rows": 0,
+      "hash_sensitive_coin_rows": 19,
+      "timing_columns_excluded": [],
+      "byte_identical": false,
+      "file": "sim1_benign_benchmark.csv"
+    },
+    {
+      "status": "matched",
+      "differing_rows": 0,
+      "hash_sensitive_coin_rows": 0,
+      "timing_columns_excluded": [],
+      "byte_identical": true,
+      "file": "sim2_landscape.csv"
+    },
+    {
+      "status": "matched",
+      "file": "sim2_first_bad_meta.json"
+    },
+    {
+      "status": "matched",
+      "differing_rows": 0,
+      "hash_sensitive_coin_rows": 0,
+      "timing_columns_excluded": [
+        "wall_s"
+      ],
+      "byte_identical": false,
+      "file": "sim3_open_problem_results.csv"
+    },
+    {
+      "status": "matched",
+      "differing_rows": 0,
+      "hash_sensitive_coin_rows": 0,
+      "timing_columns_excluded": [],
+      "byte_identical": true,
+      "file": "sim4_plateau_breakdown.csv"
+    },
+    {
+      "status": "matched",
+      "differing_rows": 0,
+      "hash_sensitive_coin_rows": 0,
+      "timing_columns_excluded": [],
+      "byte_identical": true,
+      "file": "sim5_rulebook_sized_omission.csv"
+    },
+    {
+      "status": "matched",
+      "differing_rows": 0,
+      "hash_sensitive_coin_rows": 0,
+      "timing_columns_excluded": [],
+      "byte_identical": true,
+      "file": "sim2_required_horizon.csv"
+    },
+    {
+      "status": "matched",
+      "file": "figures/fig4_numbers.json"
+    }
+  ],
+  "artifact_build": {
+    "suite": "archive",
+    "status": "completed",
+    "tasks": [
+      {
+        "task": "figure1_data",
+        "returncode": 0,
+        "elapsed_seconds": 0.057
+      },
+      {
+        "task": "figure3_data",
+        "returncode": 0,
+        "elapsed_seconds": 0.058
+      },
+      {
+        "task": "supplementary_figure_sources",
+        "returncode": 0,
+        "elapsed_seconds": 0.067
+      },
+      {
+        "task": "experiments_figure_source",
+        "returncode": 0,
+        "elapsed_seconds": 0.067
+      },
+      {
+        "task": "figure4",
+        "returncode": 0,
+        "elapsed_seconds": 12.535
+      },
+      {
+        "task": "fig1_concept",
+        "returncode": 0,
+        "elapsed_seconds": 0.554
+      },
+      {
+        "task": "fig2_evidence",
+        "returncode": 0,
+        "elapsed_seconds": 0.459
+      },
+      {
+        "task": "fig3_selfreference",
+        "returncode": 0,
+        "elapsed_seconds": 0.667
+      },
+      {
+        "task": "finite_models",
+        "returncode": 0,
+        "elapsed_seconds": 0.539
+      },
+      {
+        "task": "bounded_observation",
+        "returncode": 0,
+        "elapsed_seconds": 0.674
+      },
+      {
+        "task": "experiments",
+        "returncode": 0,
+        "elapsed_seconds": 0.641
+      },
+      {
+        "task": "numerical_tables",
+        "returncode": 0,
+        "elapsed_seconds": 0.287
+      },
+      {
+        "task": "numerical_tables_second_pass",
+        "returncode": 0,
+        "elapsed_seconds": 0.281
+      },
+      {
+        "task": "supplement_1",
+        "returncode": 0,
+        "elapsed_seconds": 0.544
+      },
+      {
+        "task": "supplement_2",
+        "returncode": 0,
+        "elapsed_seconds": 0.517
+      }
+    ],
+    "comparisons": [
+      {
+        "status": "matched",
+        "differing_rows": 0,
+        "hash_sensitive_coin_rows": 0,
+        "timing_columns_excluded": [],
+        "byte_identical": true,
+        "file": "sim2_required_horizon.csv"
+      },
+      {
+        "status": "matched",
+        "file": "figures/fig4_numbers.json"
+      }
+    ]
+  },
+  "resolved_preparation_errors": [
+    {
+      "component": "added numerical table exporter",
+      "error": "Missing whitespace after a TeX header macro",
+      "repair": "Added explicit delimiter; reran the affected complete artifact build successfully."
+    }
+  ],
+  "visual_review": {
+    "figures": 7,
+    "numerical_table_pages": 6,
+    "supplement_pages": 8,
+    "figure4_automated_overlaps": 0,
+    "figure4_automated_outside_text": 0,
+    "supplement_original_overfull_line_points": 3.48232
+  },
+  "known_certifier_counterexamples": {
+    "status": "known_counterexamples_reproduced",
+    "results": [
+      {
+        "certifier": "syntactic_no_bad",
+        "certifies_unsafe_program": true,
+        "bad_step": 2,
+        "counterexample_source": "def run(h, env):\n    yield\n    getattr(env, \"bad\")()\n    yield\n"
+      },
+      {
+        "certifier": "no_loops_no_bad",
+        "certifies_unsafe_program": true,
+        "bad_step": 2,
+        "counterexample_source": "def run(h, env):\n    yield\n    getattr(env, \"bad\")()\n    yield\n"
+      },
+      {
+        "certifier": "bad_only_in_dead_code_after_return",
+        "certifies_unsafe_program": true,
+        "bad_step": 2,
+        "counterexample_source": "def helper():\n    return\ndef run(h, env):\n    yield\n    env.bad()\n    yield\n"
+      }
+    ]
+  },
+  "scientific_validation": "Numerical reproduction does not establish global soundness or validate all manuscript claims; see KNOWN_LIMITATIONS.md.",
+  "github_uploaded": false,
+  "github_ci_executed": false,
+  "final_core_validation": {
+    "status": "completed",
+    "suite": "core",
+    "python": "3.9.6",
+    "platform": "Darwin arm64",
+    "archive_files_checked": 102,
+    "pythonhashseed": "0",
+    "tasks": [
+      {
+        "task": "base",
+        "returncode": 0,
+        "elapsed_seconds": 0.708
+      },
+      {
+        "task": "figure1_data",
+        "returncode": 0,
+        "elapsed_seconds": 0.053
+      },
+      {
+        "task": "figure3_data",
+        "returncode": 0,
+        "elapsed_seconds": 0.054
+      },
+      {
+        "task": "supplementary_figure_sources",
+        "returncode": 0,
+        "elapsed_seconds": 0.061
+      },
+      {
+        "task": "experiments_figure_source",
+        "returncode": 0,
+        "elapsed_seconds": 0.061
+      }
+    ],
+    "comparisons": [
+      {
+        "status": "matched",
+        "file": "data/candidates.json"
+      },
+      {
+        "status": "matched",
+        "differing_rows": 0,
+        "hash_sensitive_coin_rows": 0,
+        "timing_columns_excluded": [],
+        "byte_identical": true,
+        "file": "data/confidentiality_observations.csv"
+      },
+      {
+        "status": "matched",
+        "differing_rows": 0,
+        "hash_sensitive_coin_rows": 0,
+        "timing_columns_excluded": [],
+        "byte_identical": true,
+        "file": "data/confidentiality_summary.csv"
+      },
+      {
+        "status": "matched",
+        "differing_rows": 0,
+        "hash_sensitive_coin_rows": 0,
+        "timing_columns_excluded": [],
+        "byte_identical": true,
+        "file": "data/finite_models.csv"
+      },
+      {
+        "status": "matched",
+        "differing_rows": 0,
+        "hash_sensitive_coin_rows": 0,
+        "timing_columns_excluded": [],
+        "byte_identical": true,
+        "file": "data/finite_summary.csv"
+      },
+      {
+        "status": "matched",
+        "file": "data/protocol.json"
+      },
+      {
+        "status": "matched",
+        "differing_rows": 0,
+        "hash_sensitive_coin_rows": 0,
+        "timing_columns_excluded": [],
+        "byte_identical": true,
+        "file": "data/response_observations.csv"
+      },
+      {
+        "status": "matched",
+        "differing_rows": 0,
+        "hash_sensitive_coin_rows": 0,
+        "timing_columns_excluded": [],
+        "byte_identical": true,
+        "file": "data/response_summary.csv"
+      },
+      {
+        "status": "matched",
+        "differing_rows": 0,
+        "hash_sensitive_coin_rows": 0,
+        "timing_columns_excluded": [],
+        "byte_identical": true,
+        "file": "data/safety_observations.csv"
+      },
+      {
+        "status": "matched",
+        "differing_rows": 0,
+        "hash_sensitive_coin_rows": 0,
+        "timing_columns_excluded": [],
+        "byte_identical": true,
+        "file": "data/safety_summary.csv"
+      },
+      {
+        "status": "matched",
+        "file": "data/summary.json"
+      },
+      {
+        "status": "matched",
+        "differing_rows": 0,
+        "hash_sensitive_coin_rows": 0,
+        "timing_columns_excluded": [],
+        "byte_identical": true,
+        "file": "sim2_required_horizon.csv"
+      }
+    ],
+    "scientific_validation": "Not established by numerical reproduction; see docs/KNOWN_LIMITATIONS.md",
+    "failure": null
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "source_archive": "Normative_Closure_Alignment_v14.zip",
+  "source_bytes": 3729679,
+  "source_sha256": "87a71043b684d0fe0cf04ff8fc1e3701d24e0cbed5989a8da7bdc64724feccb0",
+  "destination_repository": "https://github.com/Tomasao/Impossibility-Theorem",
+  "prepared_date": "2026-10-21",
+  "original_scientific_files_preserved": [
+    {
+      "path": "reproducibility/sim5_rulebook_sized_omission.py",
+      "sha256": "d4063afd0939e50953724e06d2e945d7521b96f032cd8d8e74c9059fc1300e5e"
+    },
+    {
+      "path": "reproducibility/sim2_horizon_landscape.py",
+      "sha256": "d395a3aa07f0a1f1ea9899ff49b95c64374f8981b8fcd84a1f32c31532021bd4"
+    },
+    {
+      "path": "reproducibility/run_simulations.py",
+      "sha256": "42e40d90ce0eabd2991828fa41950b9d66307194246c2cc225168a19210ed011"
+    },
+    {
+      "path": "reproducibility/data/response_summary.csv",
+      "sha256": "6be3264e157e173dd650ebe6f2ed0524c925d417194074111145c093df1a6020"
+    },
+    {
+      "path": "reproducibility/data/finite_summary.csv",
+      "sha256": "91283f5bd0068411f589e7103b39db441e18413cb5922fbbac5c52c65a0c1041"
+    },
+    {
+      "path": "reproducibility/data/sha256_manifest.json",
+      "sha256": "972ca06657a671e82017a1dbe338d2fe470dafce8e444dbf4de8461da290a31b"
+    },
+    {
+      "path": "reproducibility/data/runtime.json",
+      "sha256": "72a23fe8ccb14dac68fe835a3f97a43baa630be34a30376442b62294bbe01364"
+    },
+    {
+      "path": "reproducibility/data/response_observations.csv",
+      "sha256": "45dc673606426c20933c3329a97d37a2d5eb80c3573ce146308ae405694029ac"
+    },
+    {
+      "path": "reproducibility/data/safety_observations.csv",
+      "sha256": "de2670238c0ec9b4f4788e65b3dda8b4db5d0a0a1adde84b7d789be5bc502092"
+    },
+    {
+      "path": "reproducibility/data/confidentiality_summary.csv",
+      "sha256": "aacc4d2a8051ad2658519d7e808d17e448aa0e5283b9f10077b3fa00d0cb2fa3"
+    },
+    {
+      "path": "reproducibility/data/confidentiality_observations.csv",
+      "sha256": "5336e8d44e76eeadcfa27c48b01bedf4b040c20292c94ee6049855ce01fa65ad"
+    },
+    {
+      "path": "reproducibility/data/protocol.json",
+      "sha256": "6d9234e4eb65ba6fb7ef2aec04740ad37faf63cab0189b36b458b03b4e2332a3"
+    },
+    {
+      "path": "reproducibility/data/summary.json",
+      "sha256": "854db354f94f9501034dc7510ee35702c98b3a2e51befa9649245fd6cf80b2e7"
+    },
+    {
+      "path": "reproducibility/data/candidates.json",
+      "sha256": "c2b488244a8c82e64099c2d7851cbba3eba283b2a7fd2e5a5644bc3a0d1922f7"
+    },
+    {
+      "path": "reproducibility/data/finite_models.csv",
+      "sha256": "8e59d88cbc9d6508076f9f6ecb91ba873409570fb080210cb310909246b18d62"
+    },
+    {
+      "path": "reproducibility/data/safety_summary.csv",
+      "sha256": "f4fda06c818c4d7e2eeb82699e0f3f9cb80a39187058ca68fc2c2bd40307e44e"
+    },
+    {
+      "path": "reproducibility/sim1_adversary_results.csv",
+      "sha256": "07884563bb34e380860e566f6d64efc65a8b775b2f5978cfdb2b5f0634e91b60"
+    },
+    {
+      "path": "reproducibility/sim1_diagonal_gatekeeper.py",
+      "sha256": "f397ffaf8cd1f84c44cfea8d16e884f5a0ab6ea07be6a2f5ea2a1093708d25d9"
+    },
+    {
+      "path": "reproducibility/data_sampled/sampled_programs_meta.json",
+      "sha256": "662ce7972c37a84439cf2239774722b0ce6c8a5e68c0b0f03fcdd951396fc1c6"
+    },
+    {
+      "path": "reproducibility/data_sampled/sampled_programs_summary.csv",
+      "sha256": "180f628a43827de88618010d3544e19d2a134de002c966a0d650e9f69487cad8"
+    },
+    {
+      "path": "reproducibility/sim4_plateau_breakdown.csv",
+      "sha256": "284f91ddc0282f70b10220d19d69c4e4b41c12513595f1731972af865b925e85"
+    },
+    {
+      "path": "reproducibility/verify_reproduction.py",
+      "sha256": "316266886f46f45cd6bc2ce8a0e3e688c24823eeb862048298744774bf34ab3e"
+    },
+    {
+      "path": "reproducibility/sim1_benign_benchmark.csv",
+      "sha256": "2ef05bc8be3e26aa8df92959b58f2a1c7de15cd1236d016a2cd740f0bd7044cb"
+    },
+    {
+      "path": "reproducibility/figures/finite_models.pdf",
+      "sha256": "c62b6b1132fef2475ddfa1004509200d7e29c7eb3861cbc5072f9cf43996d203"
+    },
+    {
+      "path": "reproducibility/figures/experiments.tex",
+      "sha256": "92822be5ccff878c0c9c8ca535f103ade63814945499df73174438485401ef11"
+    },
+    {
+      "path": "reproducibility/figures/bounded_observation.pdf",
+      "sha256": "34315156540ffd592a9710002e54b28ff577cdc0d77df9e9b02c97d3e6d74f4e"
+    },
+    {
+      "path": "reproducibility/figures/finite_models.tex",
+      "sha256": "0fd8a0f5397b1ee9a03809e0171ab50f8b85354e985a73ff9fe676d77c3f010b"
+    },
+    {
+      "path": "reproducibility/figures/experiments.pdf",
+      "sha256": "0d9fb51ca221d31f80b6b32531fffae5b9cb9f64ca8bfb8b906077b54ea7ee39"
+    },
+    {
+      "path": "reproducibility/figures/bounded_observation.tex",
+      "sha256": "c26d9c057f15b0facfd9d526b60d3113b4030346fd25bb1e726de9a558df8ab5"
+    },
+    {
+      "path": "reproducibility/build_figure_experiments.py",
+      "sha256": "fffb626f433b1f77b45b4f20f8938d75b7fd749f31547f5d87f173077b639ea9"
+    },
+    {
+      "path": "reproducibility/run_sampled.py",
+      "sha256": "fe241fdedd0b2976204bc9559f8caf121c655c9637060f4fc4d1a5503b3d1c65"
+    },
+    {
+      "path": "reproducibility/sim2_required_horizon.csv",
+      "sha256": "81d1c2c5a832b132712175d79b9ec39eaf085f9363a7e8cc33a656317fa10884"
+    },
+    {
+      "path": "reproducibility/sim5_rulebook_sized_omission.csv",
+      "sha256": "cb6bc613f1786197353732a368aa12838a056a62b61dad49db70ecf0604c6c9d"
+    },
+    {
+      "path": "reproducibility/data_extensions/small_programs_summary.csv",
+      "sha256": "896563d2d02511aa250b47fe50245e7be7ae3c586ce5d4e0b18b6e41ed4d636b"
+    },
+    {
+      "path": "reproducibility/data_extensions/small_programs_meta.json",
+      "sha256": "890794c04d6960845625cd6b73a7845a71d1e4b992f7ea83d75f74942ecf8305"
+    },
+    {
+      "path": "reproducibility/data_extensions/separator_coverage.csv",
+      "sha256": "9bc6ec8a9cefd4e9f5386d1a54ae3a8c398cf0651d890f1abc7077f0df334926"
+    },
+    {
+      "path": "reproducibility/sim3_open_problem_programs.py",
+      "sha256": "fc020693fe61a85d59b917d4e6a13fa3b5128f655c434a5af626e2aa4fada30c"
+    },
+    {
+      "path": "reproducibility/build_figures.py",
+      "sha256": "29bcde2dd0144492c01597bffa7c01f5aab36df38c9ea6d9d2ea155ff9dd339c"
+    },
+    {
+      "path": "reproducibility/sim2_first_bad_meta.json",
+      "sha256": "0664237ae85dae99553c32b951e306211b6f15c990a68af99108f12a1906fd88"
+    },
+    {
+      "path": "reproducibility/verification_record.json",
+      "sha256": "8aa4f04c634082b815de248dede869e5016fcac374bbdcf1ab694e32805aad90"
+    },
+    {
+      "path": "reproducibility/run_extensions.py",
+      "sha256": "6386e96b6fc29ecbc17aa5b71cd28c563f3a4b0fea5db2c47a3c03ea523f3e32"
+    },
+    {
+      "path": "reproducibility/sim2_landscape.csv",
+      "sha256": "c6d36a9d2162d4f9387a9fe42eecb416b83e3803c44f46db1d5975f16d47c9ed"
+    },
+    {
+      "path": "reproducibility/verify_sampled.py",
+      "sha256": "059792487a5c9a96d4277f293dabd07a8549daa1bf1b49f5e03f595de2875d2b"
+    },
+    {
+      "path": "reproducibility/sim3_open_problem_results.csv",
+      "sha256": "947a5472c94abf31643b68e03dbc26d6b84737d4ea9bc46abef9318ec3c23307"
+    },
+    {
+      "path": "reproducibility/verify_extensions.py",
+      "sha256": "e321f6f7bc959966061af10a9dc9ecfb97be9f2252352e6cc82cee48af1a19e4"
+    },
+    {
+      "path": "reproducibility/sim4_plateau_breakdown.py",
+      "sha256": "f39b4d086bbc963704237fe03319444aaa34dac454c5ce5dcfd6220366b4168e"
+    },
+    {
+      "path": "supplementary/Supplementary_Document_S1.pdf",
+      "sha256": "9bce1c9e35264a671f6f52828c724fecedbef4394521f067518624520e7e0258"
+    },
+    {
+      "path": "supplementary/S1_protocol.tex",
+      "sha256": "39947710c02de2c6ee5dd2e39c41b5e9b91f0288e2fde170c287a259601e6f0d"
+    },
+    {
+      "path": "figures/fig3_selfreference.tex",
+      "sha256": "d75e11165e29a06cb122a761e4c813ec10026ae2b8f540312bb5b14b763815e2"
+    },
+    {
+      "path": "figures/fig4_simulations.png",
+      "sha256": "25cecf60dab819886664f6c43203e32224491b84928bb026faa101690cf448ad"
+    },
+    {
+      "path": "figures/fig4_numbers.json",
+      "sha256": "ee4ce4c5e97270c410dd3ad60baf5d1971dfac42c083fb23341753d7832f3b52"
+    },
+    {
+      "path": "figures/build_fig4.py",
+      "sha256": "ea9c505ff4ca4a4ae51d8d879c62c8221b47a6fe34412e665a0bbafc4e2d51c4"
+    },
+    {
+      "path": "figures/build_fig3_data.py",
+      "sha256": "3d8f4fa1531bf66f3471e9ade970961e35e11e30aab6294e6d2320855670bdac"
+    },
+    {
+      "path": "figures/fig3_selfreference.pdf",
+      "sha256": "8f75934b966e27c458f916481b66f3762591e3014732b7b381577279b54d9620"
+    },
+    {
+      "path": "figures/fig1_concept.pdf",
+      "sha256": "4b734e248744333ad71f9ead630d4d55a7abdd966f7dd04e471b4319e1f90558"
+    },
+    {
+      "path": "figures/build_fig1_data.py",
+      "sha256": "c17637b50934652085bb054a0e084e7407208896ec581d6aa2860c04b73809a9"
+    },
+    {
+      "path": "figures/fig1_concept.tex",
+      "sha256": "fe0cc0d4114b2b29f23a33d2a6cfb91a0815672d1275a8f712a755fa9ce1d947"
+    },
+    {
+      "path": "figures/fig2_evidence.pdf",
+      "sha256": "1f1ddaa638c6d9b1adf4c189b97da708d23a969c55a953495e0a127d26bd48ac"
+    },
+    {
+      "path": "figures/fig4_simulations.pdf",
+      "sha256": "25c216985a3fdb5907567ffadc84825cffe1bdb4ece49458317e5251d3529026"
+    },
+    {
+      "path": "figures/fig2_evidence.tex",
+      "sha256": "875f450e8ca473b3d0ed64b1ea8a9d4b890a647dbd7e5759f69ae195854fb840"
+    }
+  ],
+  "omitted_from_reproducibility_subset": [
+    "reproducibility/Supplementary_Document_S1.pdf",
+    "reproducibility/build_out.log",
+    "supplementary/S1_protocol.pdf",
+    "supplementary/bounded_observation.pdf"
+  ],
+  "scope": "Reproducibility subset with added tooling/documentation and verbatim table fragments; original article source and main article PDFs are not published by this package.",
+  "scientific_changes": "No original simulation code or reference data changed.",
+  "licence": "No licence in source ZIP; existing destination licence must be retained and reviewed.",
+  "live_repository_inspected": false,
+  "uploaded_to_github": false,
+  "additional_verbatim_reference_files": [
+    {
+      "path": "tables/reference/references.bib",
+      "source_archive_path": "references.bib",
+      "sha256": "0b0b6a4bd9528a5659b723367da85d2f1be3a6a7f2910c32819a353cfd339b5b"
+    }
+  ]
+}

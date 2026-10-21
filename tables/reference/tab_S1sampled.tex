@@ -1,0 +1,31 @@
+\begin{table}[tbp]\centering\scriptsize
+\caption{Sampled programs: results at every horizon $H$, by length. False prohibitions do not occur for the safety test. Certified counts refer to the sound certificate methods; no certificate was wrong.}
+\label{tab:S1sampled}
+\setlength{\tabcolsep}{2.4pt}
+\begin{tabular}{lllrrrrrrrrr}
+\toprule
+Length & Requirement & Quantity & $H{=}4$ & $H{=}8$ & $H{=}16$ & $H{=}32$ & $H{=}64$ & $H{=}128$ & $H{=}256$ & $H{=}512$ & $H{=}1024$\\
+\midrule
+6 & Safety & false permissions & 132 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+6 & Safety & certified & 49,601 & 49,733 & 49,733 & 49,733 & 49,733 & 49,733 & 49,733 & 49,733 & 49,733\\
+6 & Confidentiality & false permissions & 196 & 6 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+6 & Confidentiality & false prohibitions & 41 & 35 & 46 & 45 & 51 & 44 & 48 & 45 & 51\\
+6 & Confidentiality & certified & 12,585 & 19,467 & 19,498 & 19,505 & 19,505 & 19,505 & 19,505 & 19,505 & 19,505\\
+8 & Safety & false permissions & 263 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+8 & Safety & certified & 49,361 & 49,623 & 49,624 & 49,624 & 49,624 & 49,624 & 49,624 & 49,624 & 49,624\\
+8 & Confidentiality & false permissions & 430 & 36 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+8 & Confidentiality & false prohibitions & 62 & 50 & 63 & 64 & 75 & 73 & 74 & 65 & 77\\
+8 & Confidentiality & certified & 7,365 & 13,162 & 13,261 & 13,267 & 13,269 & 13,269 & 13,269 & 13,269 & 13,269\\
+10 & Safety & false permissions & 368 & 32 & 1 & 0 & 0 & 0 & 0 & 0 & 0\\
+10 & Safety & certified & 49,148 & 49,484 & 49,515 & 49,516 & 49,516 & 49,516 & 49,516 & 49,516 & 49,516\\
+10 & Confidentiality & false permissions & 571 & 111 & 4 & 2 & 0 & 0 & 0 & 0 & 0\\
+10 & Confidentiality & false prohibitions & 63 & 71 & 92 & 97 & 100 & 99 & 103 & 94 & 104\\
+10 & Confidentiality & certified & 4,645 & 7,396 & 9,708 & 9,726 & 9,727 & 9,727 & 9,727 & 9,727 & 9,727\\
+12 & Safety & false permissions & 362 & 71 & 1 & 0 & 0 & 0 & 0 & 0 & 0\\
+12 & Safety & certified & 49,079 & 49,370 & 49,440 & 49,441 & 49,441 & 49,441 & 49,441 & 49,441 & 49,441\\
+12 & Confidentiality & false permissions & 772 & 228 & 10 & 2 & 0 & 0 & 0 & 0 & 0\\
+12 & Confidentiality & false prohibitions & 58 & 105 & 114 & 133 & 133 & 141 & 128 & 142 & 133\\
+12 & Confidentiality & certified & 3,246 & 5,496 & 7,624 & 7,657 & 7,663 & 7,663 & 7,663 & 7,663 & 7,663\\
+\bottomrule
+\end{tabular}
+\end{table}

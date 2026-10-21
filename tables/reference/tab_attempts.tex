@@ -1,0 +1,17 @@
+\begin{table}[h]
+\centering\small
+\caption{Attempted ways around the barrier.}
+\label{tab:attempts}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{3.6cm}Y>{\raggedright\arraybackslash}p{3.4cm}}
+\toprule
+Strategy & Why it does not restore checkable closure & Status\\
+\midrule
+Classical negation of rules & ``No certificate exists'' is not confirmed by any finite search & Leaves the class\\
+Exact abstraction & Must never merge a permitted with a forbidden plan; a computable abstraction cannot decide an undecidable boundary (Proposition~\ref{prop:abstract}) & Subject to the barrier\\
+Compression, macros, infinitely many listed rules & Aggregate denotation is still confirmable & Stays in the class\\
+Assume termination & Pointwise termination does not decide norms over infinitely many inputs (below) & Subject to the barrier\\
+Finite domains, nonuniform tables & Exact tables exist for each code-length bound but no algorithm produces them all & Changes the model\\
+Restriction or enforcement & Classifies a restricted set or changes the execution & Changes the question (Section~\ref{sec:guarantees})\\
+\bottomrule
+\end{tabularx}
+\end{table}
